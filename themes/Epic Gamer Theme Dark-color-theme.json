@@ -2,10 +2,13 @@
 	"name": "Epic Gamer Theme Dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#000000",
+		"editor.foreground": "#ffffff",
+		"activityBar.background": "#000000",
+		"activityBarBadge.background": "#2f78dd",
+		"sideBarTitle.foreground": "#ffffff",
+		"activityBar.dropBorder": "#419dee",
+		"activityBar.foreground": "#ffffff"
 	},
 	"tokenColors": [
 		{
@@ -22,11 +25,12 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"source.python",
 				"variable",
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#67cbe7"
 			}
 		},
 		{
@@ -56,7 +60,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#c67cf8"
 			}
 		},
 		{
@@ -64,19 +68,27 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#ffe347"
+			}
+		},
+		{
+			"name": "Puncuation",
+			"scope": [
+				"punctuation",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#699fce"
 			}
 		},
 		{
@@ -100,7 +112,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#8b5dd6"
 			}
 		},
 		{
@@ -123,19 +135,35 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Parameters",
 			"scope": [
-				"constant.numeric",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#f0dd71"
+			}
+		},
+		{
+			"name": "Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#4cf065"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#5e7ce2"
 			}
 		},
 		{
@@ -150,7 +178,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#6148ef"
 			}
 		},
 		{
@@ -166,7 +194,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#fba300"
 			}
 		},
 		{
@@ -175,7 +203,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#fba300"
 			}
 		},
 		{
@@ -189,7 +217,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#fba300"
 			}
 		},
 		{
