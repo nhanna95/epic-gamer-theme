@@ -1,8 +1,24 @@
 {
     "name": "epic-gamer-theme",
-    "displayName": "epic gamer theme",
-    "description": "epic gamer theme dark",
-    "version": "0.0.1",
+    "displayName": "Epic Gamer Theme",
+    "description": "Theme for Epic Gamers",
+    "version": "1.0.0",
+    "publisher": "NoxinDevelopment",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nhanna95/epic-gamer-theme"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "nixon hanna",
+        "noxin",
+        "gamer",
+        "gamer theme",
+        "epic gamer",
+        "epic gamer theme",
+        "epic gamer theme dark",
+    ],
     "engines": {
         "vscode": "^1.63.0"
     },
