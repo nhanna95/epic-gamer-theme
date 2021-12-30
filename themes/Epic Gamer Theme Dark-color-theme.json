@@ -2,27 +2,118 @@
 	"name": "Epic Gamer Theme Dark",
 	"type": "dark",
 	"colors": {
+		//main bg and fg
 		"editor.background": "#000000",
 		"editor.foreground": "#ffffff",
-		"activityBar.background": "#000000",
-		"activityBarBadge.background": "#2f78dd",
-		"sideBarTitle.foreground": "#ffffff",
-		"editorGroupHeader.tabsBackground": "#2f2d38",
-		"activityBar.dropBorder": "#ff0000",
-		"sideBar.background": "#2f2d38",
-		"sideBar.foreground": "#ffffff",
-		"sideBarSectionHeader.background": "#000000",
-		"tab.activeBackground": "#000000",
-		"tab.inactiveBackground": "#241736",
-		"statusBar.background": "#241736",
-		"titleBar.activeBackground": "#241736",
-		"menubar.selectionBackground": "#241736",
+		//window border
+		"window.activeBorder": "#9d71da",
+		"window.inactiveBorder": "#241736",
+		//text colors
+		"textLink.activeForeground": "#c7b5df",
+		"textLink.foreground": "#9d71da",
+		"textCodeBlock.background": "#241736",
+		//action colors
+		"toolbar.hoverBackground": "#241736",
+		"toolbar.activeBackground": "#9d71da",
+		//button control
 		"button.background": "#9d71da",
 		"checkbox.background": "#9d71da",
+		//dropdown control
 		"dropdown.background": "#241736",
+		"dropdown.listBackground": "#241736",
+		"dropdown.border": "#9d71da",
+		//input control
 		"input.background": "#241736",
 		"input.foreground": "#ffffff",
-		"input.placeholderForeground": "#c7b5df"
+		"input.placeholderForeground": "#c7b5df",
+		"inputOption.activeBackground": "#9d71da",
+		"inputOption.hoverBackground": "#9d71da",
+		"inputOption.activeBorder":"#ffffff",
+		//scrollbar control
+		"scrollbarSlider.activeBackground": "#8d5cd3",
+		"scrollbarSlider.background": "#c7b5df",
+		"scrollbarSlider.hoverBackground": "#9d71da",
+		//badge
+		"badge.background": "#9d71da",
+		//lists and trees
+		"list.activeSelectionBackground": "#3a3458",
+		"list.dropBackground": "#555261",
+		"list.focusBackground": "#3a3458",
+		"list.focusOutline": "#3a3458",
+		"list.hoverBackground": "#2c293a",
+		"list.inactiveSelectionBackground": "#3a3458",
+		"list.inactiveFocusBackground": "#3a3458",
+		"list.inactiveFocusOutline": "#9d71da",
+		"tree.indentGuidesStroke": "#9d71da",
+		//activity bar
+		"activityBar.background": "#000000",
+		"activityBarBadge.background": "#9d71da",
+		"activityBar.foreground": "#8f56dd",
+		"activityBar.inactiveForeground": "#d1baf1",
+		//side bar
+		"sideBar.background": "#2f2d38",
+		"sideBar.foreground": "#ffffff",
+		"sideBar.dropBackground": "#9d71da4d",
+		"sideBarTitle.foreground": "#ffffff",
+		"sideBarSectionHeader.background": "#000000",
+
+		//editor groups and tabs
+		"editorGroupHeader.tabsBackground": "#2f2d38",
+		"tab.activeBackground": "#000000",
+		"tab.inactiveBackground": "#241736",
+		//status bar colors
+		"statusBar.background": "#241736",
+		//title bar colors
+		"titleBar.activeBackground": "#241736",
+		//menu bar colors
+		"menubar.selectionBackground": "#241736",
+
+
+		//testing colors
+
+		//text colors
+		"textBlockQuote.background": "#ff0000",
+		"textBlockQuote.border": "#ff0000",
+		"textPreformat.foreground": "#ff0000",
+		"textSeparator.foreground": "#ff0000",
+		//button control
+		"button.secondaryBackground": "#ff0000",
+		//input control
+		"inputValidation.errorBackground": "#ff0000",
+		"inputValidation.infoBackground": "#ff0000",
+		"inputValidation.warningBackground": "#ff0000",
+		//progress bar
+		"progressBar.background": "#ff0000",
+		//lists and trees
+		"list.focusHighlightForeground": "#ff0000",
+		"list.highlightForeground": "#ff0000",
+		"list.invalidItemForeground": "#ff0000",
+		"list.errorForeground": "#ff0000",
+		"list.warningForeground": "#ff0000",
+		"listFilterWidget.background": "#ff0000",
+		"listFilterWidget.outline": "#ff0000",
+		"listFilterWidget.noMatchesOutline": "#ff0000",
+		"list.filterMatchBackground": "#ff0000",
+		"list.filterMatchBorder": "#ff0000",
+		"list.deemphasizedForeground": "#ff0000",
+		"tree.tableColumnsBorder": "#ff0000",
+		"tree.tableOddRowsBackground": "#ff0000",
+		//activity bar
+		"activityBar.dropBorder": "#ff0000",
+		//minimap
+		"minimap.findMatchHighlight": "#9d71da",
+		"minimap.selectionHighlight": "#4d07af",
+		"minimap.errorHighlight": "#ff0000",
+		"minimap.warningHighlight": "#ff6600",
+		"minimap.selectionOccurrenceHighlight": "#ff0000",
+		"minimapGutter.addedBackground": "#ff0000",
+		"minimapGutter.modifiedBackground": "#ff0000",
+		"minimapGutter.deletedBackground": "#ff0000"
+
+		
+
+
+
 	},
 	"tokenColors": [
 		{
@@ -33,7 +124,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#46545a"
+				"foreground": "#204453"
 			}
 		},
 		{
@@ -168,7 +259,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#4cf065"
+				"foreground": "#f0e54c"
 			}
 		},
 		{
