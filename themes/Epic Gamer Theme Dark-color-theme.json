@@ -182,7 +182,7 @@
 			}
 		},
 		{
-			"name": "Puncuation",
+			"name": "Punctuation",
 			"scope": [
 				"punctuation",
 				"punctuation.definition.tag",
