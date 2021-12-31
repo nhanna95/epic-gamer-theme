@@ -44,4 +44,14 @@ Keyboard Shortcut : `Ctrl + K Ctrl + T` <br> <br> <br>
 
 Please report spottings of bright red (other than error highlights on the minimap) and any other feedback/issues. <br>
 
-[GitHub Repository](https://github.com/nhanna95/epic-gamer-theme/issues)
+[GitHub Repository](https://github.com/nhanna95/epic-gamer-theme/issues) <br> <br> <br>
+
+## License
+
+__MIT License__
+
+<br>
+
+This work is licensed under the terms of the license available below.<br>
+
+__License :__ [MIT License](https://opensource.org/licenses/MIT)
