@@ -18,11 +18,7 @@
 
 ### C++
 
-![C++](./img/theme_pic5.png) <br> <br>
-
-### Python Fullscreen
-
-![Python Fullscreen](./img/theme_pic2.png) <br> <br> <br>
+![C++](./img/theme_pic5.png) <br> <br> <br>
  
 
 ## Installation
