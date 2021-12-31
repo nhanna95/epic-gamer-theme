@@ -68,6 +68,8 @@
 		"minimap.selectionOccurrenceHighlight": "#9d71dabf",
 		"minimap.errorHighlight": "#ff0000",
 		"minimap.warningHighlight": "#ff6600",
+		"minimapGutter.addedBackground": "#00ff22",
+		"minimapGutter.deletedBackground": "#ff0000",
 		//editor groups and tabs
 		"editorGroup.dropBackground": "#9d71da4d",
 		"editorGroupHeader.tabsBackground": "#241736",
@@ -78,8 +80,8 @@
 		"tab.hoverBackground": "#3f2d5a",
 		"tab.inactiveForeground": "#ffffff",
 		//editor colors
-		"editorLineNumber.foreground": "#492679",
-		"editorLineNumber.activeForeground": "#9d71da",
+		"editorLineNumber.foreground": "#9d71da",
+		"editorLineNumber.activeForeground": "#c7b5df",
 		"editorCursor.background": "#9d71da",
 		"editorCursor.foreground": "#ffffff",
 		"editor.selectionBackground": "#9d71da4d",
@@ -104,6 +106,9 @@
 		"editorOverviewRuler.border": "#9d71da4d",
 		"editorOverviewRuler.findMatchForeground": "#9d71da4d",
 		"editorGutter.background": "#000000",
+		"editorGutter.foldingControlForeground": "#ceb1f7",
+		"editorGutter.addedBackground": "#00ff22",
+		"editorGutter.deletedBackground": "#ff0000",
 
 		//status bar colors
 		"statusBar.background": "#241736",
@@ -140,9 +145,7 @@
 		//activity bar
 		"activityBar.dropBorder": "#ff0000",
 		//minimap
-		"minimapGutter.addedBackground": "#ff0000",
 		"minimapGutter.modifiedBackground": "#ff0000",
-		"minimapGutter.deletedBackground": "#ff0000",
 		//editor groups and tabs
 		"editorGroup.border": "#ff0000",
 		"editorGroupHeader.noTabsBackground": "#ff0000",
@@ -185,7 +188,7 @@
 		"editorOverviewRuler.selectionHighlightForeground": "#ff0000e6",
 		"editorOverviewRuler.wordHighlightForeground": "#ff0000",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
-		"editorOverviewRuler.addedForeground": "#ff0000",
+		"editorOverviewRuler.addedForeground": "#00ff22",
 		"editorOverviewRuler.deletedForeground": "#ff0000",
 		"editorOverviewRuler.errorForeground": "#ff0000",
 		"editorOverviewRuler.warningForeground": "#ff0000",
@@ -197,10 +200,7 @@
 		"problemsInfoIcon.foreground": "#ff0000",
 		"editorUnnecessaryCode.border": "#ff0000",
 		"editorGutter.modifiedBackground": "#ff0000",
-		"editorGutter.addedBackground": "#ff0000",
-		"editorGutter.deletedBackground": "#ff0000",
 		"editorGutter.commentRangeForeground": "#ff0000",
-		"editorGutter.foldingControlForeground": "#ff0000"
 	},
 	"tokenColors": [
 		{
@@ -211,7 +211,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#204453"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -245,14 +245,22 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Storage",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#c67cf8"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#ddf87c"
 			}
 		},
 		{
@@ -265,7 +273,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#ffe347"
+				"foreground": "#00ff37"
 			}
 		},
 		{
@@ -280,7 +288,7 @@
 				"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#699fce"
+				"foreground": "#0088ff"
 			}
 		},
 		{
@@ -355,7 +363,7 @@
 				"constant.numeric",
 			],
 			"settings": {
-				"foreground": "#6aff00"
+				"foreground": "#ff00dd"
 			}
 		},
 		{
