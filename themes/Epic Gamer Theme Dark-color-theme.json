@@ -12,6 +12,10 @@
 		"textLink.activeForeground": "#c7b5df",
 		"textLink.foreground": "#9d71da",
 		"textCodeBlock.background": "#3c245e",
+		"textBlockQuote.background": "#3c245e",
+		"textBlockQuote.border": "#9d71da",
+		"textPreformat.foreground": "#9d71da",
+		"textSeparator.foreground": "#ff0000",
 		//action colors
 		"toolbar.hoverBackground": "#9d71da",
 		"toolbar.activeBackground": "#9d71da",
@@ -114,6 +118,7 @@
 		"editorBracketMatch.border": "#ffffff",
 		"editorOverviewRuler.border": "#9d71da4d",
 		"editorOverviewRuler.findMatchForeground": "#9d71da4d",
+		"editorOverviewRuler.wordHighlightForeground": "#9d71da4d",
 		"editorGutter.background": "#000000",
 		"editorGutter.foldingControlForeground": "#ceb1f7",
 		"editorGutter.addedBackground": "#00ff22",
@@ -129,11 +134,6 @@
 
 		//testing colors
 
-		//text colors
-		"textBlockQuote.background": "#ff0000",
-		"textBlockQuote.border": "#ff0000",
-		"textPreformat.foreground": "#ff0000",
-		"textSeparator.foreground": "#ff0000",
 		//button control
 		"button.secondaryBackground": "#ff0000",
 		//input control
@@ -164,7 +164,6 @@
 		"tab.unfocusedInactiveModifiedBorder": "#ff0000",
 		"editorPane.background": "#ff0000",
 		//editor colors
-		"editor.wordHighlightBorder": "#ff0000",
 		"editor.wordHighlightStrongBorder": "#ff0000",
 		"editor.findRangeHighlightBorder": "#ff0000",
 		"searchEditor.findMatchBackground": "#ff0000",
@@ -184,7 +183,6 @@
 		"editor.foldBackground": "#ff0000",
 		"editorOverviewRuler.rangeHighlightForeground": "#ff0000e6",
 		"editorOverviewRuler.selectionHighlightForeground": "#ff0000e6",
-		"editorOverviewRuler.wordHighlightForeground": "#ff0000",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
 		"editorOverviewRuler.addedForeground": "#00ff22",
 		"editorOverviewRuler.deletedForeground": "#ff0000",
