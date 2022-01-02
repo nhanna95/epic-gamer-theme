@@ -27,8 +27,9 @@
 		"dropdown.listBackground": "#241736",
 		"dropdown.border": "#9d71da",
 		//input control
-		"input.background": "#241736",
+		"input.background": "#402c5c",
 		"input.foreground": "#ffffff",
+		"input.border": "#9d71da",
 		"input.placeholderForeground": "#c7b5df",
 		"inputOption.activeBackground": "#9d71da",
 		"inputOption.hoverBackground": "#9d71da",
