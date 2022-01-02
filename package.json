@@ -2,6 +2,7 @@
     "name": "epic-gamer-theme",
     "displayName": "Epic Gamer Theme",
     "description": "Theme for Epic Gamers",
+    "icon": "img/logo.png",
     "version": "1.3.6",
     "publisher": "NoxinDevelopment",
     "repository": {
